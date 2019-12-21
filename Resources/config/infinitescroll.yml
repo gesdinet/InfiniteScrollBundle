@@ -1,0 +1,7 @@
+services:
+
+    infinitescroll:
+        class: Gesdinet\InfiniteScrollBundle\InfiniteScroll
+        arguments: [ '@logger', '@validator' ]
+
+    Gesdinet\InfiniteScrollBundle\InfiniteScrollInterface: '@infinitescroll'
