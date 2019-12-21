@@ -15,7 +15,7 @@ Symfony must be of 2.7 or above.
 Open a command console, enter your project directory and execute the following command to download the latest stable version of this bundle:
 
 ```console
-composer require Gesdinet/infinitescroll-bundle
+composer require gesdinet/infinitescroll-bundle
 ```
 
 This command requires you to have Composer installed globally, as explained in the [installation chapter](https://getcomposer.org/doc/00-intro.md) of the Composer documentation.
@@ -34,5 +34,5 @@ public function registerBundles()
 }
 ```
 
-In symfony 4 this is no longer necessary :)
+In symfony 4+ this is no longer necessary :)
 
